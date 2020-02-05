@@ -28,6 +28,7 @@ const createConfig = props => {
       id: embedId,
       pageName: pageName,
       dashboardId: dashboardId,
+      pageView: 'fitToWidth',
       permissions: models.Permissions[permissions],
       settings: {
         filterPaneEnabled: true,
