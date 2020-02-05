@@ -10,7 +10,7 @@
     "docs": "webpack-dev-server --mode development",
     "docs:prod": "webpack --mode production",
     "publish:demo": "npm run docs:prod && gh-pages -d docs",
-    "prepare": "npm run build"
+    "prepare": "npm run lib"
   },
   "keywords": [
     "powerbi",
