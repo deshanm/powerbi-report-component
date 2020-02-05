@@ -9,7 +9,8 @@
     "lib:watch": "babel src/lib -w -d lib --copy-files",
     "docs": "webpack-dev-server --mode development",
     "docs:prod": "webpack --mode production",
-    "publish:demo": "npm run docs:prod && gh-pages -d docs"
+    "publish:demo": "npm run docs:prod && gh-pages -d docs",
+    "prepare": "npm run build"
   },
   "keywords": [
     "powerbi",
